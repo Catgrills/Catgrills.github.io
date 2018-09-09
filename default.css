@@ -1,0 +1,206 @@
+* {
+	font-family: "Roboto", "ぼくたちのゴシック２ボールド";
+}
+
+body,
+html {
+	background: #232426;
+	padding: 0px;
+	margin: 0px;
+}
+
+#header {
+	background: #1A1A1C;
+	box-shadow: 0px 1px 2px rgba(0, 0, 0, .2);
+	padding: 40px 0px 50px 0px;
+	text-align: center;
+	width: 100%;
+}
+
+#header .title {
+	color: #FFF;
+	font-family: "Helvetica Rounded";
+	font-size: 25pt;
+}
+
+#header .subtitle {
+	color: #EBEBEB;
+	font-size: 18pt;
+	font-stretch: condensed;
+	margin-top: 10px;
+}
+
+#header .contact ul {
+	padding: 0px !important;
+}
+
+#header .contact ul li {
+	border-radius: 2px;
+	box-shadow: 0px 1px 2px rgba(0, 0, 0, .3);
+	font-weight: bold;
+	padding: 5px 0px 8px 0px;
+	width: 100px;
+	list-style: none;
+	display: inline-block;
+	margin-right: 5px;
+}
+
+#header .contact ul li a {
+	color: #FFF;
+	text-decoration: none;
+}
+
+#header .contact ul #github {
+	background: #2980B9;
+}
+
+#header .contact ul #deviant {
+	background: #27AE60;
+}
+
+#header .contact ul #userstyles {
+	background: #E74C3C;
+}
+
+#content {
+	height: 100% !important;
+	padding: 25px 50px;
+}
+
+#content .block {
+	padding-bottom: 40px;
+}
+
+#content .block h1 {
+	color: #FFF;
+	font-family: "Helvetica Rounded";
+}
+
+#content .block .avatar {
+	background: no-repeat url(image/others/avatar.png) center;
+	background-size: cover;
+	border-radius: 50%;
+	box-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
+	height: 150px;
+	width: 150px;
+	float: left;
+	margin-right: 30px;
+}
+
+#content .block .text {
+	color: #FFF;	
+	font-size: 15pt;
+	font-stretch: condensed;
+	width: 100%;
+}
+
+#content .block h2 {
+	background: transparent;
+	border: none;
+	color: #FFF;
+	font-family: "Helvetica Rounded";
+	font-size: 18pt;
+	font-stretch: normal;
+	padding: 0px;
+}
+
+#content .block h2::after {
+	background: no-repeat url(image/others/drop.png) center;
+	background-size: 15px auto;
+	color: transparent;
+	content: "dd";
+	position: relative;
+	top: 2px;
+	margin-left: 0px;
+	filter: brightness(0) invert(1) !important;
+	z-index: 1;
+}
+
+#content .block .section {
+	margin-top: 20px;
+	margin-bottom: 20px;	
+	text-align: center;
+}
+
+#content .block .section .thumb {
+	background-position: center !important;
+	background-repeat: no-repeat !important;
+	background-size: cover !important;
+	border: none;
+	border-radius: 2px;
+	box-shadow: 0px 1px 2px rgba(0, 0, 0, .3);
+	height: 12vw;
+	width: 22vw;
+	margin-right: 10px;
+	margin-bottom: 12px;
+	display: inline-block;
+}
+
+.modal {
+	background: #212126 !important;
+	border: 6px solid #141416;
+	border-radius: 2px;
+	box-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
+	height: 90%;
+	width: 90%;
+	overflow-y: scroll;
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	margin: auto;
+	z-index: 999;
+	display: none;
+}
+
+.modal .title {
+	font-family: "Helvetica Rounded";
+	font-size: 25pt;
+	font-stretch: normal;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+.modal .text {
+	margin-bottom: 20px;
+}
+
+.modal a {
+	color: #F79F1F;
+	text-decoration: none;
+}
+
+.modal .install {
+	background: no-repeat url(image/others/stylus.svg);
+	background-size: 200px auto !important;
+	border: none;
+	color: transparent;
+	height: 40px;
+	width: 500px;
+}
+
+.modal .close {
+	background: no-repeat url(image/others/close.png) center;
+	background-size: 35px auto;
+	border: none;
+	color: transparent;
+	height: 40px;
+	position: absolute;
+	top: 15px;
+	right: 15px;
+	filter: brightness(0) invert(1);
+}
+
+.modal img {
+	border-radius: 2px;
+	box-shadow: 0px 1px 2px rgba(0, 0, 0, .3);
+	height: auto;
+	width: 90%;
+	display: inline-block;
+	margin-bottom: 10px;
+}
+
+.modal figcaption {
+	margin-bottom: 20px;
+}
