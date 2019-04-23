@@ -155,6 +155,7 @@ html {
 }
 
 .modal .title {
+	color: #FFF;
 	font-family: "Helvetica Rounded";
 	font-size: 25pt;
 	font-stretch: normal;
@@ -202,5 +203,8 @@ html {
 }
 
 .modal figcaption {
+	color: #FFF;
+    	font-size: 15pt;
+    	font-stretch: condensed;
 	margin-bottom: 20px;
 }
